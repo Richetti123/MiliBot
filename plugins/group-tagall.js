@@ -11,10 +11,10 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     throw false;
   }
   const pesan = args.join` `;
-  const oi = `@richetti_123 ${pesan}`;
-  let teks = `${global.packname} te invoca despiértate 😡!!\n\nETIQUETAS:\n`;
+  const oi = `@chemili.ff ${pesan}`;
+  let teks = `𓆩♡𓆪 CHE MILI LOS INVOCA APAREZCAN!!! 😡!!\n\nETIQUETAS:\n`;
   for (const mem of participants) {
-    teks += `😼 @${mem.jid.split('@')[0]}\n`;
+    teks += `👤 @${mem.jid.split('@')[0]}\n`;
   }
   teks += `*${global.packname}*`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.jid)} );
