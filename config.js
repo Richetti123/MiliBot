@@ -17,32 +17,32 @@ global.defaultLenguaje = 'es';
 
 global.owner = [
   ['5217771303481', 'MichiBot', true],
-  ['5217771303481'],
+  ['5491165596104'],
   ['5217771303481'],
   ['5217771303481'],
   ['5217771303481'],
   ['5217771303481']
 ];
 
-global.suittag = ['5219993404349'];
+global.suittag = ['5491165596104'];
 global.prems = [];
 
 // Base Rest Api
 global.BASE_API_DELIRIUS = "https://delirius-apiofc.vercel.app";
 
-global.packname = 'MichiBot';
-global.author = 'MichiBot';
-global.wm = 'MichiBot';
-global.titulowm = 'MichiBot';
-global.titulowm2 = `MichiBot`
-global.igfg = 'MichiBot';
+global.packname = 'MiliBot';
+global.author = 'MiliBot';
+global.wm = 'MiliBot';
+global.titulowm = 'MiliBot';
+global.titulowm2 = `MiliBot`
+global.igfg = 'MiliBot';
 global.wait = '*_[ ⏳ ] Cargando..._*';
 
 global.imagen1 = fs.readFileSync('./src/assets/images/menu/languages/es/menu.png');
-global.imagen2 = fs.readFileSync('./src/assets/images/menu/languages/pt/menu.png');
-global.imagen3 = fs.readFileSync('./src/assets/images/menu/languages/fr/menu.png')
-global.imagen4 = fs.readFileSync('./src/assets/images/menu/languages/en/menu.png')
-global.imagen5 = fs.readFileSync('./src/assets/images/menu/languages/ru/menu.png')
+global.imagen2 = fs.readFileSync('./src/assets/images/menu/languages/es/menu.png');
+global.imagen3 = fs.readFileSync('./src/assets/images/menu/languages/es/menu.png')
+global.imagen4 = fs.readFileSync('./src/assets/images/menu/languages/es/menu.png')
+global.imagen5 = fs.readFileSync('./src/assets/images/menu/languages/es/menu.png')
 
 global.mods = [];
 
@@ -55,12 +55,12 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nMichiBot`;
-global.gt = 'MichiBot';
-global.mysticbot = 'MichiBot';
+global.wm2 = `${dia} ${fecha}\nMiliBot`;
+global.gt = 'MiliBot';
+global.mysticbot = 'MiliBot';
 global.channel = 'https://whatsapp.com/channel/0029Vb5KnEv0wajldteZlH0G';
-global.md = 'https://www.instagram.com/richetti_123/';
-global.mysticbot = 'https://www.instagram.com/richetti_123/';
+global.md = 'https://www.instagram.com/chemili.ff/';
+global.mysticbot = 'https://www.instagram.com/chemili.ff';
 global.waitt = '*_[ ⏳ ] Cargando..._*';
 global.waittt = '*_[ ⏳ ] Cargando..._*';
 global.waitttt = '*_[ ⏳ ] Cargando..._*';
